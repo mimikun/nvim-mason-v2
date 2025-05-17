@@ -11,7 +11,8 @@ local dependencies = {
     "folke/neoconf.nvim",
     "Bilal2453/luvit-meta",
     "justinsgithub/wezterm-types",
-    "zapling/mason-lock.nvim",
+    -- NOTE: mason-lock.nvim not support mason v2
+    --"zapling/mason-lock.nvim",
     "b0o/schemastore.nvim",
     { "Zeioth/mason-extra-cmds", opts = {} },
     { "mkindberg/ghostty-ls", config = true },

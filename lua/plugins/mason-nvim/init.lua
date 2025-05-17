@@ -1,4 +1,3 @@
-local global = require("config.global")
 local settings = require("config.settings")
 
 ---@type boolean | string[] | { exclude: string[] }
@@ -91,9 +90,10 @@ local spec = {
         })
 
         -- Utils
-        require("mason-lock").setup({
-            lockfile_path = global.mason_lockfile,
-        })
+        -- NOTE: mason-lock.nvim not support mason v2
+        --require("mason-lock").setup({
+        --    require("config.global").mason_lockfile,
+        --})
     end,
     --cond = false,
     --enabled = false,
