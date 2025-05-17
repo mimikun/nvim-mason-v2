@@ -1,5 +1,6 @@
 # Common to all platforms
 lazy-lock.json
+dotfyle.json
 *.zip
 *.patch
 *.patch.gpg
