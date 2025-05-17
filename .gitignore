@@ -1,0 +1,28 @@
+# Common to all platforms
+*.zip
+*.patch
+*.patch.gpg
+node_modules
+.textlintcache
+
+# Linux only
+dot_config/fish/completions/bd.fish
+dot_config/fish/completions/docker-compose.fish
+dot_config/fish/completions/docker.fish
+dot_config/fish/completions/fisher.fish
+dot_config/fish/completions/gitignore.fish
+dot_config/fish/completions/spin.fish
+dot_config/fish/completions/poetry.fish
+dot_config/fish/completions/hwm.fish
+dot_config/fish/completions/_git-forgit
+dot_config/fish/completions/git-forgit.bash
+dot_config/fish/completions/git-forgit.fish
+dot_config/fish/completions/pnpm.fish
+dot_config/fish/completions/wezterm.fish
+dot_config/fish/completions/tide.fish
+
+# Windows only
+AppData/Local/nvim/Makefile
+
+# commentary of dotfiles
+docs/book
